@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#myCarousel.carousel.slide {
+    margin-top: 0%;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 3%;
+    height: 20px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #8b8b8f;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 3%;
+    height: 20px;
+    margin: 10px;
+    background-color: #ffff99;
+}
+
+#name{
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    margin-left: 3%;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+#rcorners1 {
+    display: block;
+    margin-left: 2%;
+}
+
+#rcorners2 {
+    background-color: #8dfaae;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin-top: 2%; 
+    margin-bottom: 0%;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+    height: auto;  
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#bold_style {
+    font-weight: bold;
+}
+
+#color_style {
+    color: #a19d9d; 
+    display: inline-block; 
+    margin-top: 0.5%;
+}
+
+.navbar{
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
+
+
+.btn{
+    background-color:rgb(153, 250, 190);
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 150%;
+    font-weight: bold;
+}

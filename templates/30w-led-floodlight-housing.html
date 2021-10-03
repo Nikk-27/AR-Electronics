@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style3.css">
+    <meta name="google-signin-client_id" content="221292672234-qhjnhevio27vhpbp6osq2pfrilt6kkpn.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <title>30w-led-floodlight-housing</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h3><a href="/templates/slim_flood_light.html" style="color:black">
+                <</a><span style="display: inline-block; margin-left: 2%;">Your Cart
+                    </span></h3>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="/img/30w_slim_flood_light.jpeg" alt="30W Slim Flood Housing" class="card-img-top">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class='name'>30W Slim Flood Housing</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class='price'> Total : <span style="color: #7309ec;">₹225</span></div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class='quantity'>Quantity</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-btn">
+                                    <button id="down" class="btn btn-default" onclick=" down('0')"><span
+                                            class="glyphicon glyphicon-minus"></span></button>
+                                </div>
+                                <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                                <div class="input-group-btn">
+                                    <button id="up" class="btn btn-default" onclick="up('10')"><span
+                                            class="glyphicon glyphicon-plus"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width:170%;height:70%;font-size:50%;align-items:center;margin-left:40%;margin-right:40%;margin-top:4%;" class="g-signin2" data-onsuccess="onSignIn"></div>
+        <!-- <p id="rcorners1" style="font-size:20px;"><span style="color:red">Note :-</span><img src="/img/google_icon.png"
+                alt="google_icon" style="margin-right:4%; margin-left:4%;">
+            Sign in with Google</p> -->
+        <p id="rcorners2">Pay now with PayTM</p>
+        <p id="rcorners3">Pay now with Google Pay</p>
+
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+<script>
+    function onSignIn(googleUser) {
+      console.log('User is ' + JSON.stringify(googleUser.getBasicProfile()))
+    }
+  </script>
+</html>
+
+<!-- kill -9 $(ps -A | grep python | awk '{print $1}') -->
