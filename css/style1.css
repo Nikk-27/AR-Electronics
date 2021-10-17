@@ -55,6 +55,11 @@ nav ul li a:hover{
     width:100%;
 } */
 
+.carousel-inner > .item > img {
+    width:50%;
+    height:40%;
+  }
+
 .card{
     margin:5% 0%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
