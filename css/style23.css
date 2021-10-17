@@ -45,6 +45,16 @@
     padding: 10px;
 }
 
+.carousel-inner > .item > img {
+    margin: auto;
+    width:50%;
+    height:40%;
+  }
+
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+ }
   /* .grid-container>div {
     text-align: center;
     padding: 20px 0;

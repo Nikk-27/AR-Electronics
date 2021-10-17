@@ -78,6 +78,16 @@ hr {
     box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
 }
 
+.carousel-inner > .item > img {
+    margin: auto;
+    width:50%;
+    height:40%;
+  }
+
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+ }
 
 .btn{
     background-color:rgb(153, 250, 190);
