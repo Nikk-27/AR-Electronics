@@ -1,14 +1,26 @@
 'use strict';
 
-function up(max) {
-    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
-    if (document.getElementById("myNumber").value >= parseInt(max)) {
-        document.getElementById("myNumber").value = max;
-    }
-}
-function down(min) {
-    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) - 1;
-    if (document.getElementById("myNumber").value <= parseInt(min)) {
-        document.getElementById("myNumber").value = min;
-    }
-}
+/* Creating the grid */
+function grid(el) {
+    var container = document.createElement("div");
+    container.id = "main";
+    container.className = "container";
+
+    for (i=0; i<5; i+=1) {
+        var row = document.createElement("div");
+        row.className = "row";
+        row.id = "row" + i;
+      
+        for (k=0; k<5; k+=1) {
+            var box = document.createElement("div"); 
+            box.className = "box";
+            row.appendChild(box);
+        };
+      
+        container.appendChild(row);      
+    };
+  
+    el.appendChild(container);
+};
+
+grid(document.body);
